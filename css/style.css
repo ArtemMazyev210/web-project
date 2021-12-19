@@ -2012,5 +2012,43 @@ footer .footer__text {
     height: 320px;
   }
 
+    /* Команда */
     
+ .team {
+    padding: 0px 15px;
+  }
+
+  .team__title {
+    margin-bottom: 60px;
+    font-size: 25px;
+  }
+
+  .team__list .team__list-item {
+    margin-bottom: 20px;
+    margin-top: 0px;
+    width: 155px;
+  }
+
+  .team__photo {
+    margin-bottom: 20px;
+  }
+
+  .team__photo img {
+    width: 155px;
+    height: 155px;
+  }
+
+  .team__descr .team__descr-name {
+    font-size: 14px;
+  }
+
+  .team__descr .team__descr-position {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    color: #050C33;
+    opacity: 0.7;
+  }
+
 }  
