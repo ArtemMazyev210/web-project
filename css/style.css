@@ -2123,4 +2123,30 @@ footer .footer__text {
   .slick__arrows {
     margin-top: 20px;
   }
+    
+      /* партнеры */
+
+    .partners {
+    padding: 10px 0px;
+  }
+
+  .partners .slider__item {
+    height: 100px;
+    width: 200px;
+  }
+
+  .partners .partners__title {
+    padding: 10px 50px;
+    font-size: 25px;
+  }
+
+  .partners .partners__descr {
+    padding: 15px 50px;
+    width: 100%;
+    text-align: start;
+  }
+
+  .partners img {
+    width: 195px;
+  }
 }  
