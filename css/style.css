@@ -1509,3 +1509,24 @@ footer .footer__text {
 .footer__text p {
     margin-bottom: 6px;
 }
+
+@media screen and (max-width: 575px) {
+
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  header {
+    padding: 0px;
+  }
+
+  ._container {
+    width: 100%;
+  }
+
+  ._min-container {
+    width: 100%;
+  }
+}  
