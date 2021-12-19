@@ -1529,4 +1529,28 @@ footer .footer__text {
   ._min-container {
     width: 100%;
   }
+    
+    
+  /* основной блок header */
+
+  .header__container {
+    width: 100%;
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+ 
+  .header__druplicon img {
+    height: 400px;
+    width: 400px;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .header__video {
+    width: 100%;
+    min-height: 800px;
+  }
+    
 }  
