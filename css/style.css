@@ -1795,4 +1795,26 @@ footer .footer__text {
     position: absolute;
   }
     
+     .support {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .support__list {
+    margin: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr
+  }
+
+  .support__title {
+    font-size: 30px;
+    width: 250px;
+    line-height: 35px;
+  }
+
+  .support__item {
+    width: 100%;
+  }
+    
 }  
