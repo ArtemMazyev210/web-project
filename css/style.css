@@ -2050,5 +2050,77 @@ footer .footer__text {
     color: #050C33;
     opacity: 0.7;
   }
+    
+      /* отзывы */
 
+  .reviews {
+    padding: 10px;
+    background: url("../img/reviews/right-quote-sign.svg") no-repeat left top/35%;
+  }
+
+  .reviews__title {
+    margin-bottom: 70px;
+    font-size: 25px;
+  }
+
+  .reviews__wrapper {
+    width: 100%;
+    flex-direction: column;
+    padding: 40px 10px;
+  }
+
+  .reviews__wrapper::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    z-index: -1;
+
+    background: #FFFFFF;
+    opacity: 0.5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
+    border-radius: 5px;
+
+  }
+
+  .reviews__wrapper::after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    bottom: 0;
+    left: 30px;
+    right: 30px;
+    z-index: -2;
+
+    background: #FFFFFF;
+    opacity: 0.34;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
+    border-radius: 5px;
+  }
+
+  .reviews__wrapper .reviews__slider {
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    width: 100%;
+    padding: 0px 10px 30px;
+  }
+
+  .reviews__slider .reviews__comment {
+    width: 100%;
+  }
+
+  .reviews__slider .reviews__person {
+    width: 100%;
+  }
+
+  .slick__arrows {
+    margin-top: 20px;
+  }
 }  
