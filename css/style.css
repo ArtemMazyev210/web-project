@@ -1742,4 +1742,57 @@ footer .footer__text {
     top: -10px;
   }
     
+    .services {
+    padding: 60px 15px;
+  }
+
+  .services__list {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+  }
+
+  .services .services__title {
+    padding: 10px 10px;
+    margin: 0;
+    font-size: 25px;
+    line-height: 35px;
+    width: 100%;
+  }
+
+  .services .services__text {
+    margin: 0;
+    padding: 20px 10px;
+    width: 100%;
+  }
+
+  .services__item {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .services__item p {
+    width: 135px;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  .services__item img {
+    margin: 0px auto;
+    display: block;
+  }
+
+  .services__item::before {
+    left: 0;
+    top: 8.76%;
+    bottom: 54.64%;
+    content: "";
+    height: 71px;
+    width: 114px;
+    background: url(../img/services/icon-bg.svg) no-repeat;
+    position: absolute;
+  }
+    
 }  
