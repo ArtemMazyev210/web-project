@@ -1947,5 +1947,70 @@ footer .footer__text {
     width: 100%;
   }
 
+    .cases {
+    margin-top: 1200px;
+  }
+
+  .cases__title {
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+
+  .cases__items {
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cases__width-380 {
+    width: 100%;
+    height: 440px;
+    margin-bottom: 0px;
+  }
+
+  .cases__width-380 img {
+    width: 100%;
+  }
+
+  .cases__text {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .cases__width-380 .cases__text {
+    margin: 20px;
+    padding: 0;
+  }
+
+  .cases__small-case .cases__text {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .cases__width-780 {
+    width: 100%;
+    height: 440px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+
+  .cases__width-780 span {
+    position: absolute;
+    top: -100px;
+    right: 0;
+    padding: 0;
+    color: #fff;
+  }
+
+  .cases__width-780 img {
+    width: 100%;
+    height: 320px;
+  }
+
     
 }  
