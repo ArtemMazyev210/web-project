@@ -1670,4 +1670,76 @@ footer .footer__text {
     padding-left: 40px;
     border-bottom: 1px solid black;
   }
+    
+    /* основная информация header */
+
+  .header__content {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .header__content .header__descr {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .header__content-title {
+    width: 240px;
+    line-height: 32px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+  }
+
+  .header__btn {
+    margin: 0px auto;
+  }
+  .header .header__btn {
+    background-color: inherit;
+    margin-bottom: 40px;
+  }
+
+  .header__content-text {
+    margin: 20px auto 40px;
+    width: 100%;
+    line-height: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+
+  /* достижения в header */
+
+  .header__achiev {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+  }
+
+  .header .header__achiev .header__achiev-item {
+    text-align: start;
+    margin: 30px 30px 30px 40px;
+    width: 130px;
+  }
+
+  .header .header__achiev .header__achiev-item span {
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .header .header__achiev .header__achiev-item p {
+    opacity: 0.7;
+    font-family: "Montserrat";
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    margin-top: 8px;
+  }
+
+  .header .header__achiev .header__achiev-item img {
+    position: absolute;
+    top: -10px;
+  }
+    
 }  
