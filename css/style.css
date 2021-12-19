@@ -2149,4 +2149,85 @@ footer .footer__text {
   .partners img {
     width: 195px;
   }
+    
+    .webform {
+    height: 1100px;
+  }
+
+  .webform__main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .webform__main .webform__info {
+    width: 100%;
+    margin: 60px;
+  }
+
+  .webform__mail,
+  .webform__number {
+    margin-left: 25px;
+  }
+
+  .webform__info-descr {
+    width: 100%;
+    text-align: center;
+  }
+
+  .webform__info-descr span {
+    font-size: 25px;
+    margin-left: 20px;
+    line-height: 35px;
+  }
+
+  .webform__info-descr p {
+    margin-bottom: 35px;
+    text-align: start;
+    margin: 10px 0 10px 25px;
+  }
+
+  .webform__main .webform__form {
+    margin-top: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  .webform__form-elem {
+    width: 100%;
+  }
+
+  .webform__form-btn {
+    width: 100%;
+  }
+
+  .webform__form-btn:hover {
+    background-color: #f14d34;
+  }
+
+  .webform .ds__1 {
+    left: 30%;
+  }
+
+  .webform .ds__1 img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .webform .ds__2 img {
+    width: 150px;
+    height: 70px;
+  }
+
+  .webform footer {
+    height: 150px;
+    padding: 0px 20px;
+  }
+
+  .webform footer .footer__text {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+    
 }  
