@@ -1,7 +1,5 @@
 $(document).ready(function () {
 
-
-
     // ТАРИФЫ
 
     $('.plans__card-starting').mouseover(function () {
@@ -25,10 +23,10 @@ $(document).ready(function () {
     // ОТЗЫВЫ
 
     $('.reviews__slider').on(`init reInit`, function (event, slick) {
-        $('.slick-slide-num-current').text('0' + 1 + ' '); // ' / ' + '0' + slick.slideCount
+        $('.slick-slide-num-current').text('0' + 1 + ' ');
     })
     $('.reviews__slider').on(`afterChange`, function (event, slick, currentSlide, nextSlide) {
-        $('.slick-slide-num-current').text('0' + (currentSlide + 1) + ' '); // + ' / 0' + slick.slideCount
+        $('.slick-slide-num-current').text('0' + (currentSlide + 1) + ' ');
     })
     $('.reviews__slider').slick({
         arrows: true,
@@ -40,8 +38,7 @@ $(document).ready(function () {
         easing: 'ease',
         appendArrows: '.slick__arrows',
         prevArrow: '<span class="slick-prev"><</span>',
-        nextArrow: '<span class="slick-next">></span>'
-
+        nextArrow: '<span class="slick-next">></span>',
     });
 
     // ПАРТНЕРЫ
@@ -87,5 +84,9 @@ $(document).ready(function () {
                 variableWidth: true
             }
         }],
+    });
+
+    $('.header__burger').click(function (event) {
+        $('.header__menu').toggleClass('show');
     });
 });
