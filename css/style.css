@@ -1157,11 +1157,13 @@ li {
 /* стрелки слайдера */
 
 .slick__arrows {
+
   margin: auto;
   display: flex;
 }
 
 .slick__arrows .slick-arrow {
+  cursor: pointer;
   width: 16px;
   height: 32px;
 }
