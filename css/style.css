@@ -1514,6 +1514,9 @@ footer .footer__text {
   margin-bottom: 6px;
 }
 
+/* ///////////////////////////////// */
+
+
 
 /* //////////////////////////// */
 
@@ -1740,6 +1743,7 @@ footer .footer__text {
   }
 
   .webform__main {
+    z-index: 20;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1928,15 +1932,6 @@ footer .footer__text {
   .plans__price-card h3 {
     font-size: 40px;
   }
-
-  /* 
-
-  .d-big-background {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-  */
 
   .plans .scaled {
     transform: scale(1);

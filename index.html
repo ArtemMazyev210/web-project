@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Ubuntu:wght@500&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="src/modal.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -396,7 +396,7 @@
                             </div>
                             <p>Неиспользованные часы не переносятся</p>
                         </div>
-                        <input class="plans__btn" type="button" value="ОСТАВИТЬ ЗАЯВКУ!">
+                         <div id="modal"></div>
                     </div>
                 </div>
                 <div class="plans__card-vip plans__card">
@@ -445,7 +445,7 @@
                             </div>
                             <p>Неиспользованные часы не переносятся</p>
                         </div>
-                        <input class="plans__btn" type="button" value="ОСТАВИТЬ ЗАЯВКУ!">
+                         <input class="plans__btn" type="button" value="ОСТАВИТЬ ЗАЯВКУ!">
                     </div>
                 </div>
             </div>
@@ -853,7 +853,7 @@
                 </div>
             </div>
             <div class="webform__form">
-                <form action="#" method="POST">
+               <form action="#" id="form" method="POST" accept-charset="UTF-8" >
                     <div>
                         <input class="webform__form-elem" id="form-name" type="text" name="name" required
                             placeholder="Ваше имя">
@@ -875,10 +875,11 @@
                             <a>обработку своих персональных данных</a>.<span>*</span></label>
                     </div>
                     <div>
-                        <button class="webform__form-btn">ОСТАВИТЬ ЗАЯВКУ!</button>
+                        <input class="webform__form-btn" value="ОСТАВИТЬ ЗАЯВКУ!" type="submit">
                     </div>
                 </form>
             </div>
+           
         </div>
         <footer>
             <div class="footer__text _container">
@@ -890,6 +891,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="modal.js"></script>
 </body>
-
 </html>

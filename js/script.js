@@ -86,7 +86,29 @@ $(document).ready(function () {
         }],
     });
 
+    // Burger JQ
+
     $('.header__burger').click(function (event) {
         $('.header__menu').toggleClass('show');
     });
 });
+
+// FETCH
+
+const formElem = document.querySelector("#form");
+
+formElem.onsubmit = async (e) => {
+    e.preventDefault();
+
+    let response = await fetch('https://formcarry.com/s/i9EtQjA3zV1', {
+        method: 'POST',
+        body: new FormData(formElem)
+    });
+
+    let result = await response.json();
+    
+    formElem.reset();
+    console.log(result.message);
+}
+
+

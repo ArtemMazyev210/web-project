@@ -16,9 +16,10 @@
     "url": "https://github.com/antisedativ/web-project/issues"
   },
   "homepage": "https://github.com/antisedativ/web-project#readme",
+  "description": "",
   "dependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-react-app": "^3.1.2"
-  },
-  "description": ""
+    "babel-preset-react-app": "^3.1.2",
+    "react-hook-form": "^7.22.5"
+  }
 }
