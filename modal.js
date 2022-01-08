@@ -42,7 +42,7 @@ var LikeButton = function (_React$Component) {
               } },
             React.createElement(
               'form',
-              { action: 'https://formcarry.com/s/i9EtQjA3zV1', method: 'POST', 'accept-Charset': 'UTF-8', id: 'form' },
+              { action: 'https://formcarry.com/s/i9EtQjA3zV1', method: 'POST', acceptCharset: 'UTF-8', id: 'form' },
               React.createElement(
                 'div',
                 null,
@@ -104,12 +104,9 @@ var LikeButton = function (_React$Component) {
               React.createElement(
                 'div',
                 null,
-                React.createElement(
-                  'button',
-                  { className: 'webform__form-btn',
-                    type: 'button' },
-                  ' \u041E\u0421\u0422\u0410\u0412\u0418\u0422\u042C \u0417\u0410\u042F\u0412\u041A\u0423! '
-                )
+                React.createElement('input', { className: 'webform__form-btn',
+                  type: 'submit',
+                  value: "ОСТАВИТЬ ЗАЯВКУ!" })
               )
             )
           )

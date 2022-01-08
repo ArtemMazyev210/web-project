@@ -7,6 +7,7 @@ class LikeButton extends React.Component {
       liked: false
     };
   }
+
   render() {
     if (this.state.liked) {
       return (
@@ -14,7 +15,7 @@ class LikeButton extends React.Component {
           onClick={() => this.setState({ liked: false })}>
           <div className = {'modal__content'}
             onClick = {e => e.stopPropagation()}>
-            <form action="https://formcarry.com/s/i9EtQjA3zV1" method="POST" accept-Charset="UTF-8" id="form">
+            <form action="https://formcarry.com/s/i9EtQjA3zV1" method="POST" acceptCharset="UTF-8" id="form">
               <div>
                 <input className = "webform__form-elem"
                   id = "form-name"
@@ -56,8 +57,9 @@ class LikeButton extends React.Component {
                 </label>
               </div>
               <div>
-                <button className = "webform__form-btn"
-                  type = "button"> ОСТАВИТЬ ЗАЯВКУ! </button>
+                <input className = "webform__form-btn"
+                  type="submit"
+                  value={"ОСТАВИТЬ ЗАЯВКУ!"}/>
               </div>
             </form>
           </div>
@@ -77,4 +79,4 @@ class LikeButton extends React.Component {
 }
 
 let domContainer = document.querySelector('#modal');
-ReactDOM.render( < LikeButton /> , domContainer);
+ReactDOM.render(<LikeButton /> ,domContainer);
