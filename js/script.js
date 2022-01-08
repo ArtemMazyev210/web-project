@@ -104,11 +104,8 @@ formElem.onsubmit = async (e) => {
         method: 'POST',
         body: new FormData(formElem)
     });
-
-    let result = await response.json();
-    
     formElem.reset();
-    console.log(result.message);
+    alert("Данные отправлены!");
 }
 
 
